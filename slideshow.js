@@ -3,6 +3,7 @@ showSlides();
 
 function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
+  slideIndex = Math.floor(Math.random() * slides.length);
   for (var i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }

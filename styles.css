@@ -12,6 +12,11 @@
     src: url("fonts/LibreCaslonText-Regular.ttf") format("ttf");
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #wrapper {
     margin: 0 auto;
     background-color: #1A9AE4;
@@ -53,7 +58,6 @@ nav {
     color: #011F5B;
     width: 200px;
     font-size: 2em;
-    margin: 150px;
     padding: 20px;
 }
 
@@ -62,7 +66,6 @@ nav {
     color: #011F5B;
     width: 200px;
     font-size: 2em;
-    margin: 150px;
     padding: 20px;
 }
 
